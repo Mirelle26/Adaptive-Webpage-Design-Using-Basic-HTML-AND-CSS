@@ -1,0 +1,266 @@
+/*EXTERNAL CSS*/
+
+body{
+	background-color: black;
+	font-family: Century Gothic;
+	font-size: 12px;
+	margin: 0;
+	padding:0;
+	height: auto;
+
+}
+.wrapper{
+	background-color: #FFFFDA;
+	width: 1000px;
+	margin: 0 auto;
+	padding:20px;
+	border-top: 10px solid gray;
+	border-bottom: 10px solid gray;
+	max-height: 8000px;
+}
+.header wrapper{
+	background-size:cover;
+	height: 450px;
+	margin-right:10px;
+	margin-bottom:0;
+}
+.header img{
+	padding: 0;
+	width: 100%;
+	height: 50%;
+}
+.nav{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+.nav ul{
+	margin: 0;
+	padding:10px 0;
+}
+.nav li{
+	margin-right: 45px;
+}
+.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	white-space: 3px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;	
+	margin-right: 10px;
+	padding: 10px;
+}
+.nav ul li a.active{
+	color: orange;
+}
+.nav ul li a:hover{
+	text-decoration: underline;
+	color: #FFFF;
+	border: 1px solid blac;
+	background-color: gray;
+	border-radius: 20px;
+}
+.banner{
+	width: 100%;
+	height: 250px;
+}
+.banner img{
+	width: 100%;
+	height: 250px;
+}
+.main{
+	min-height: 500px;
+}
+.left-side-bar{
+	width: 190px;
+	float: left;
+	border: 1px solid black;
+	min-height: 50px;
+	margin: 10px 10px 10px 0;
+}
+.left-side-bar h2{
+	margin: 0;
+	padding:0;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	background-color: #666;
+}
+.left-side-bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+.left-side-bar ul li{
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+.left-side-bar ul li a{
+	display:block;
+	width: 100%;
+	padding: 5px 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: BLACK;
+	background-color: white;
+}
+.left-side-bar ul li a:hover{
+	color: white;
+	background-color: #383838;
+}
+.content{
+	width: 550px;
+	float: left;
+	min-height: 500px;
+	margin:10px;
+}
+.content h1{
+	padding:0;
+	margin: 0;
+	color: black;
+	font-size: 30px;
+	border-bottom: 1px dotted black;
+}
+.content h2{
+	color: orange;
+}
+.content p{
+	text-align: justify;
+	line-height: 1.5;
+}
+.right-side-bar{
+	width: 180px;
+	float: right;
+	border: 1px solid black;
+	min-height: 50px;
+	margin: 10px 0 10px 10px;
+}
+.right-side-bar ul{
+	margin: 0;
+	padding:20px;
+}
+.right-side-bar ul li{
+	list-style-type: none;
+}
+.right-side-bar ul li img{
+	width: 100%;
+}
+.right-side-bar h2{
+	background-color: #666;
+	margin-top: 0%;
+}
+.footer{
+	clear:both;
+	border-top: 1px solid black;
+	padding:10px;
+	text-align: center;
+	color: black;
+}
+.footer img{
+	padding: 0;
+	margin: 0;
+}
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+  
+.row {
+	display: flex;
+	border-bottom: 1px solid #ddd;
+}
+.header {
+	font-weight: bold;
+}
+  
+.cell {
+	flex: 1;
+	padding: 10px;
+}
+.contact{
+	border: 1px solid gray;
+	border-radius: 8px;
+	width: 90%; 
+	margin: 0 auto; 
+	padding: 20px;
+	margin-top: 10px;
+	border-width: 2px;
+}
+.label{
+	font-size: 18px;
+	text-align: left;
+}
+label{
+	color:black;
+}
+input[type="text"], input[type="email"] {
+	width: 80%; 
+	height: 30px;
+	padding: 10px; 
+	box-sizing: border-box; 
+	border: 1px solid gray; 
+	border-radius: 4px; 
+}
+.right-side-bar h2{
+	text-align: center;
+}
+
+.row {
+	display: -ms-flexbox; /* IE 10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE 10 */
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+.column {
+	-ms-flex: 50%; /* IE 10 */
+	flex: 50%;
+	padding: 0 4px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+  
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width:100%;
+	width: 100%;
+	height: auto;
+}
+
+.btn {
+	border: none;
+	outline: none;
+	padding: 10px 16px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+	font-size: 18px;
+}
+  
+.btn:hover {
+	background-color: #ddd;
+}
+  
+.btn.active {
+	background-color: #666;
+	color: white;
+}
+.header2 {
+	text-align: center;
+	padding: 32px;
+}
+.header2 p{
+	text-align: center;
+}
+#btnSend, #btnClear{
+	background-color: #666;
+}
+.footer a{
+	text-decoration: none;
+	color: black;
+}
